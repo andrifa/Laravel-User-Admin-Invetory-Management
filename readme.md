@@ -21,7 +21,8 @@
 ### ->> ADMIN REGISTRATION PAGE : -
 #### Since he's admin, to register you can directly put to the database with using command $admin = new App\Admin, $admin->name = ..., $admin->email = ..., $admin->password = Hash::make("..."), $admin->job_title = ..., $admin->save()
 
-##USER CREATE, EDIT, DELETE INVENTORY (AFTER LOGIN)
+## -----------------------------------------------------------------------------------------------------------------------------
+## USER CREATE, EDIT, DELETE INVENTORY (AFTER LOGIN)
 
 ### ->> USER DASHBOARD PAGE : http://localhost:8000/inventory
 #### in user dashboard you can look for inventory of your data only (you cannot look for others data), and in action column if you just submit request, the column will show "Waiting for confirmation", if approved by Admin will show Buttons (Edit & Delete), if rejected by Admin will show "Your Item Rejected"
@@ -35,7 +36,8 @@
 ### ->> USER DELETE INVENTORY : -
 #### the button will automatically delete your inventory
 
-##ADMIN DISABLE, RESET PASSWORD, DELETE USER (AFTER LOGIN)
+## -----------------------------------------------------------------------------------------------------------------------------
+## ADMIN DISABLE, RESET PASSWORD, DELETE USER (AFTER LOGIN)
 
 ### ->> ADMIN DASHBOARD PAGE : http://localhost:8000/admin
 #### in this page you can look for All User List and there is button in column action for disable, reset password, and delete user
@@ -49,7 +51,8 @@
 ### ->> ADMIN DELETE USER : -
 #### you will delete the user by click the button
 
-##ADMIN APPROVE, REJECT INVENTORY (AFTER LOGIN)
+## -----------------------------------------------------------------------------------------------------------------------------
+## ADMIN APPROVE, REJECT INVENTORY (AFTER LOGIN)
 
 ### ->> ADMIN USER INVENTORY LIST PAGE : http://localhost:8000/admin/inventory
 #### in this page you can look for all user inventory list and there is button in column action for approve and reject user's Inventory, in user's inventory table the column action still show "waiting for confirmation"
