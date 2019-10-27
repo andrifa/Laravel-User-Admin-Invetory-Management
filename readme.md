@@ -21,7 +21,6 @@
 ### ->> ADMIN REGISTRATION PAGE : -
 #### Since he's admin, to register you can directly put to the database with using command $admin = new App\Admin, $admin->name = ..., $admin->email = ..., $admin->password = Hash::make("..."), $admin->job_title = ..., $admin->save()
 
-##-----------------------------------------------------------------------------
 ##USER CREATE, EDIT, DELETE INVENTORY (AFTER LOGIN)
 
 ### ->> USER DASHBOARD PAGE : http://localhost:8000/inventory
@@ -36,7 +35,6 @@
 ### ->> USER DELETE INVENTORY : -
 #### the button will automatically delete your inventory
 
-##----------------------------------------------------------------------------
 ##ADMIN DISABLE, RESET PASSWORD, DELETE USER (AFTER LOGIN)
 
 ### ->> ADMIN DASHBOARD PAGE : http://localhost:8000/admin
@@ -51,7 +49,6 @@
 ### ->> ADMIN DELETE USER : -
 #### you will delete the user by click the button
 
-##---------------------------------------------------------------------------
 ##ADMIN APPROVE, REJECT INVENTORY (AFTER LOGIN)
 
 ### ->> ADMIN USER INVENTORY LIST PAGE : http://localhost:8000/admin/inventory
